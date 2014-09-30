@@ -1,6 +1,6 @@
-# Setting up …
+# Apps
 
-… apps and tools to help you surf Twitter better.
+**How to setup various popular Twitter applications.**
 
 ## Twitter proper
 

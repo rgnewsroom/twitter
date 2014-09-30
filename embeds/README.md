@@ -1,3 +1,9 @@
+# Embeds
+
+**How to embed tweets.**
+
+## Instructions
+
 You can embed tweets from a number of places. You can find them via Storify, TweetDeck or straight Twitter. The most direct way is to go to the page for the tweet. Not the feed or the person, but the page for the individual tweet. The URL should looks something like this: 
 `[https://twitter.com/rgsports/status/508411001390112768](https://twitter.com/rgsports/status/508411001390112768)`
 

@@ -1,6 +1,6 @@
 # Cards
 
-**HTML experiments using [Twitter Cards](https://dev.twitter.com/cards/overview).**
+**How to setup and use “Twitter Cards”.**
 
 ## Demos
 

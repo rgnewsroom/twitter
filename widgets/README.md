@@ -1,3 +1,9 @@
+# Widgets
+
+**How to use and embed Twitter widgets on [registerguard.com](http://registerguard.com).**
+
+Check out the [demo page](http://newsroom.registerguard.com/twitter/widgets/).
+
 ## Categories
 
 At this time (June, 2013), there're four types of [Twitter widgets](https://dev.twitter.com/docs/embedded-timelines):
@@ -21,7 +27,7 @@ The twitter widget HTML requires the below Javascript to run:
 
 At this time, there's one widget (with a label of **[Tweets by The Register-Guard (@registerguard)](https://twitter.com/settings/widgets)**) which can be used for all of our widget needs ([except for "search" widgets](https://github.com/registerguard/registerguard.github.com/wiki/Twitter-timeline-widget-guide#search)).
 
-To view the default widget markup, and see examples of how to modify the code, [check out the demo page](http://registerguard.github.io/bulldog/build/files/test/twitter-widgets.html).
+To view the default widget markup, and see examples of how to modify the code, check out the [demo page](http://newsroom.registerguard.com/twitter/widgets/).
 
 Note that the value of `data-widget-id` is the same for all widgets **except** for the "search" (see below).
 
