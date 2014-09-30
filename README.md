@@ -1,27 +1,19 @@
 # Twitter
 
-**Example implementations for Twitter Cards.**
+**Newsroom information about all things [Twitter](https://twitter.com/).**
 
-## Cards
+## [Apps](apps/)
 
-Description here.
+How to setup various popular Twitter applications.
 
-[Visit xxxx](cards/) for more details.
+## [Embeds](embeds/)
 
-## Embeds
+How to embed tweets.
 
-Description here.
+## [Widgets](widgets/)
 
-[Visit xxxx](embeds/) for more details.
+How to use and embed Twitter widgets on [registerguard.com](http://registerguard.com).
 
-## Widgets
+## [Cards](cards/)
 
-Description here.
-
-[Visit xxxx](widgets/) for more details.
-
-## Tools
-
-Description here.
-
-[Visit xxxx](tools/) for more details.
+How to setup and use “Twitter Cards”.
