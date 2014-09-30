@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title></title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+		<!--
+			
+			body { font: 100%/1.5 Arial sans-serif; }
+			#container { margin: 0 10px; }
+			h1 { margin-bottom: 0; }
+			h2 { margin-top: 0; }
+			pre {
+				font: .75em/1.5 Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+				color: #333;
+				border: 1px solid rgba(0, 0, 0, .15);
+				background: rgba(0, 0, 0, .1);
+				margin: 0 0 10px;
+				padding: 5px 10px;
+				word-wrap: normal;
+				overflow: auto;
+				white-space: pre;
+				-webkit-border-radius: 3px;
+				   -moz-border-radius: 3px;
+				        border-radius: 3px;
+			}
+			
+			iframe[id^='twitter-widget-'],
+			.twitter-timeline { width: 100%; }
+			
+		-->
+	</style>
+	
+</head>
+<body>
+
+<div id="container">
+	
+	<h1>Twitter "timeline" widget examples</h1>
+	<p>Check out <a href="https://github.com/registerguard/registerguard.github.com/wiki/Twitter-timeline-widget-guide">this WIKI page</a> for more information.</p>
+	
+	<hr>
+	
+	<section>
+		
+		<hgroup>
+			<h1>Out-of-the-box Twitter widget</h1>
+			<h2>Tweets by <a href="https://twitter.com/registerguard">@registerguard</a></h2>
+		</hgroup>
+		
+		<p>The default markup, below, will display the user timeline of <a href="https://twitter.com/registerguard">@registerguard</a> by default.</p>
+		
+		<a 
+			class="twitter-timeline" 
+			href="https://twitter.com/registerguard" 
+			data-widget-id="347149624567558145"
+		>
+			Tweets by @registerguard
+		</a>
+		
+		<p>Copy/paste friendly:</p>
+		
+<pre>
+&lt;a 
+	class="twitter-timeline" 
+	href="https://twitter.com/registerguard" 
+	data-widget-id="347149624567558145"
+>
+	Tweets by @registerguard
+&lt;/a>
+</pre>
+		
+		<p>This markup can be used for all other users and widget categories except for "search" (see below).</p>
+		
+	</section>
+	
+	<hr>
+	
+	<section>
+		
+		<hgroup>
+			<h1>Modification #1: User</h1>
+			<h2>Tweets by <a href="https://twitter.com/rgsports">@rgsports</a></h2>
+		</hgroup>
+		
+		<p>In this example, I've added the attributes <code>data-screen-name="rgsports"</code> to override the default (above).</p>
+		
+		<a 
+			class="twitter-timeline" 
+			href="https://twitter.com/rgsports" 
+			data-widget-id="347149624567558145" 
+			data-screen-name="rgsports" 
+			width="100%"
+		>
+			Tweets by @rgsports
+		</a>
+		
+		<p>Copy/paste friendly:</p>
+		
+<pre>
+&lt;a 
+	class="twitter-timeline" 
+	href="https://twitter.com/rgsports" 
+	data-widget-id="347149624567558145" 
+	data-screen-name="rgsports" 
+	width="100%"
+>
+	Tweets by @rgsports
+&lt;/a>
+</pre>
+		
+	</section>
+	
+	<hr>
+	
+	<section>
+		
+		<hgroup>
+			<h1>Modification #2: Favorites</h1>
+			<h2>Favorite Tweets by <a href="https://twitter.com/rgsports/favorites">@rgsports</a></h2>
+		</hgroup>
+		
+		<p>In this example, I've added the attribute <code>data-favorites-screen-name="rgsports"</code> to override the default (above).</p>
+		
+		<a 
+			class="twitter-timeline" 
+			href="https://twitter.com/rgsports/favorites" 
+			data-widget-id="347149624567558145"
+			data-favorites-screen-name="rgsports" 
+			width="100%"
+		>
+			Favorite Tweets by @rgsports
+		</a>
+		
+		<p>Copy/paste friendly:</p>
+		
+<pre>
+&lt;a 
+	class="twitter-timeline" 
+	href="https://twitter.com/rgsports/favorites" 
+	data-widget-id="347149624567558145"
+	data-favorites-screen-name="rgsports" 
+	width="100%"
+>
+	Favorite Tweets by @rgsports
+&lt;/a>
+</pre>
+		
+	</section>
+	
+	<hr>
+	
+	<section>
+		
+		<hgroup>
+			<h1>Modification #3: List</h1>
+			<h2>Tweets from <a href="https://twitter.com/rgsports/rg-sports-dept">@rgsports/rg-sports-dept</a></h2>
+		</hgroup>
+		
+		<p>In this example, I've added the attributes <code>data-list-owner-screen-name="rgsports"</code> and <code>data-list-slug="rg-sports-dept"</code> to override the default (above).</p>
+		
+		<a 
+			class="twitter-timeline"
+			href="https://twitter.com/rgsports/rg-sports-dept" 
+			data-widget-id="347149624567558145" 
+			data-list-owner-screen-name="rgsports" 
+			data-list-slug="rg-sports-dept" 
+			width="100%"
+		>
+			Tweets from @rgsports/rg-sports-dept
+		</a>
+		
+		<p>Copy/paste friendly:</p>
+		
+<pre>
+&lt;a 
+	class="twitter-timeline"
+	href="https://twitter.com/rgsports/rg-sports-dept" 
+	data-widget-id="347149624567558145" 
+	data-list-owner-screen-name="rgsports" 
+	data-list-slug="rg-sports-dept" 
+	width="100%"
+>
+	Tweets from @rgsports/rg-sports-dept
+&lt;/a>
+</pre>
+		
+	</section>
+	
+	<hr>
+	
+	<section>
+		
+		<h1>Search</h1>
+		
+		<p>Unfortunately, the Twitter docs state: "At the present time, it is not possible to override search queries." <b>Translation</b>: You have to <a href="https://twitter.com/settings/widgets">create a new widget</a> every time you want to embed a new "search" widget onto your pages.</p>
+		
+		<p>In the example below, I'm searching for the keyword "registerguard".</p>
+		
+		<a 
+			class="twitter-timeline" 
+			href="https://twitter.com/search?q=%23registerguard" 
+			data-widget-id="347514528235397122"
+		>
+			Tweets about "#registerguard"
+		</a>
+		
+		<p>Copy/paste friendly:</p>
+		
+<pre>
+&lt;a 
+	class="twitter-timeline" 
+	href="https://twitter.com/search?q=%23registerguard" 
+	data-widget-id="347514528235397122"
+>
+	Tweets about "#registerguard"
+&lt;/a>
+</pre>
+		
+		<p>While it's unfortunate that you can't re-use the "default" markup for searches, probably the most important thing to keep in mind is that you don't need the Javascript that's generated when <a href="https://twitter.com/settings/widgets">creating a new widget</a>.</p>
+		
+	</section>
+	
+</div> <!-- /#container -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<script>
+	<!--
+		
+		/**
+		 * Twitter timeline widget JS.
+		 *
+		 * @see https://twitter.com/settings/widgets/
+		 * @see https://dev.twitter.com/docs/embedded-timelines
+		 * @see http://stackoverflow.com/a/5654929/922323
+		 * @see http://tappetyclick.com/blog/2012/12/20/how-dynamically-resize-new-twitter-widget
+		 * @see https://www.geekgoddess.com/change-twitter-widget-to-wider-than-520px
+		 */
+		
+		$(document).ready(function() {
+			
+			!function(id) {
+				
+				if ($('.twitter-timeline').length && ( ! $('#' + id).length)) {
+					
+					$('<script>', {
+						'id' : id,
+						'src' : '//platform.twitter.com/widgets.js'
+					})
+						.appendTo('head');
+					
+				}
+				
+			}('twitter-wjs');
+			
+		});
+		
+		/*
+		$(document).ready(function() {
+			
+			!function(id) {
+				
+				if ($('.twitter-timeline').length && ( ! $('#' + id).length)) {
+					
+					$('<script>')
+						.appendTo('head')
+						.attr('id', id)
+						.attr('src', '//platform.twitter.com/widgets.js');
+					
+				}
+				
+			}('twitter-wjs');
+			
+		});
+		*/
+		
+		/*
+		$(document).ready(function() {
+			
+			!function(document, id) {
+				
+				var js;
+				
+				if ($('.twitter-timeline').length && ( ! $('#' + id).length)) {
+					
+					js = document.createElement('script');
+					js.id = id;
+					js.src = '//platform.twitter.com/widgets.js';
+					$('head').append(js);
+					
+				}
+				
+			}(document, 'twitter-wjs');
+			
+		});
+		*/
+		
+		/*
+		!function(document, el, id) {
+			
+			// Hoisted variables:
+			var js,
+			    fjs;
+			
+			if ( ! document.getElementById(id)) {
+				
+				fjs = document.getElementsByTagName(el)[0];
+				js = document.createElement(el);
+				js.id = id;
+				js.src = (/^http:/.test(document.location) ? 'http' : 'https') + '://platform.twitter.com/widgets.js';
+				fjs.parentNode.insertBefore(js, fjs);
+				
+			}
+			
+		}(document, 'script', 'twitter-wjs');
+		*/
+		
+		/*
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		*/
+		
+	//-->
+</script>
+
+</body>
