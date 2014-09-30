@@ -1,4 +1,12 @@
-# Setting up TweetDeck
+# Setting up …
+
+… apps and tools to help you surf Twitter better.
+
+## Twitter proper
+
+Here’s everything you can do using just Twitter … Coming soon!
+
+## TweetDeck
 
 ### Get it:
 
@@ -35,3 +43,7 @@ Like so:
 ![tweetdeck-add-rg-columns](https://cloud.githubusercontent.com/assets/218624/3884876/d0d3abba-21b6-11e4-9606-64d6b42f6ea1.gif)
 
 All done.
+
+## HootSuite
+
+Coming soon!
